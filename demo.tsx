@@ -1,4 +1,3 @@
-// @ts-ignore
 import App from './App.tsx';
 
 window.addEventListener('load', () => {

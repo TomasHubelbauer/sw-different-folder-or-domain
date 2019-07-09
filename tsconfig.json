@@ -6,6 +6,6 @@
       "@types/react",
       "@types/react-dom"
     ],
-    "allowUmdGlobalAccess": true,
+    "allowUmdGlobalAccess": true
   }
 }
