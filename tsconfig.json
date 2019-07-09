@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmit": true,
+    "types": [
+      "@types/react",
+      "@types/react-dom"
+    ],
+    "allowUmdGlobalAccess": true,
+  }
+}
