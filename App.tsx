@@ -1,8 +1,12 @@
+type AppProps = {
+  name: string;
+}
+
 type AppState = {
   counter: number;
 };
 
-export default class App extends React.Component<{}, AppState> {
+export default class App extends React.Component<AppProps, AppState> {
   public readonly state: AppState = {
     counter: 0,
   };
@@ -10,7 +14,7 @@ export default class App extends React.Component<{}, AppState> {
   render() {
     return (
       <div>
-        React!
+        Hi, {this.props.name}!
         <br />
         Counter: <span>{this.state.counter}</span>
         <br />
