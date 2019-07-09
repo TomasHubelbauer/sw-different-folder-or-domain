@@ -9,7 +9,3 @@ To run locally use `npx serve .` (`file://` protocol is insecure and service wor
 ## To-Do
 
 Find out why the JSX/TSX compilation is not working.
-
-See if it will be possible to use ESM to import React and React DOM or if scripts tags will be needed.
-
-Finalize the React demo.
