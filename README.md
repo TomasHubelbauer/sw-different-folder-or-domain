@@ -1,5 +1,5 @@
 # Service Worker JavaScript to TypeScript Transpiler Demo
 
-[**DEMO**]()
+[**DEMO**](https://tomashubelbauer.github.io/sw-js-to-ts-transpiler-demo)
 
 This is a demo repository for the [Service Worker JavaScript to TypeScript Transpiler script](https://github.com/TomasHubelbauer/sw-js-to-ts-transpiler).
