@@ -15,3 +15,7 @@ To run locally run:
 
 Find out how to get rid of the *'React/ReactDOM' refers to a UMD global, but the current file is a module. Consider adding an import instead* hints in VS Code.
 https://stackoverflow.com/q/56960465/2715716
+
+Combine `index.js` and `worker.js` into one by recognizing if we're in the tab execution context or in the module execution context.
+If in tab, download the transpiler script and register the service worker.
+If in worker, execute the transpiler script.
