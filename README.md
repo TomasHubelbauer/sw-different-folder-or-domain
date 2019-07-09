@@ -5,7 +5,3 @@
 This is a demo repository for the [Service Worker JavaScript to TypeScript Transpiler script](https://github.com/TomasHubelbauer/sw-js-to-ts-transpiler).
 
 To run locally use `npx serve .` (`file://` protocol is insecure and service workers require `localhost` or HTTPS).
-
-## To-Do
-
-Find out why the JSX/TSX compilation is not working.

@@ -1,5 +1,5 @@
 import App from './App.tsx';
 
-window.addEventListener('load', async () => {
-  ReactDOM.render(React.createElement(App), document.getElementById('root'));
+window.addEventListener('load', () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
 });
