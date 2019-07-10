@@ -16,4 +16,7 @@ To run locally run:
 Find out how to get rid of the *'React/ReactDOM' refers to a UMD global, but the current file is a module. Consider adding an import instead* hints in VS Code.
 https://stackoverflow.com/q/56960465/2715716
 
-Cache the TypeScript library using the service worker.
+Fix the first visit not working still - either send message from the service
+worker to let the app know `fetch` is now being intercepted or do a test `fetch`
+first until it starts working? Because the service worker `install` handler didn't
+seem to have access to `clients` - it was empty.
