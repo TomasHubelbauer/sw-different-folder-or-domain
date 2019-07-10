@@ -1,4 +1,6 @@
-body {
-  margin: 0 auto;
-  width: 900px;
+@media screen and (orientation:landscape) {
+  body {
+    margin: 0 auto;
+    width: 900px;
+  }
 }
