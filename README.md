@@ -15,3 +15,5 @@ To run locally run:
 
 Find out how to get rid of the *'React/ReactDOM' refers to a UMD global, but the current file is a module. Consider adding an import instead* hints in VS Code.
 https://stackoverflow.com/q/56960465/2715716
+
+Cache the TypeScript library using the service worker.
